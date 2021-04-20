@@ -1,0 +1,96 @@
+
+*{
+    text-align: center;
+    margin: 0px auto;
+   
+}
+
+.box{
+    display: flex;
+    margin-left: 337px;
+}
+.box2{
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin:2px;
+    text-align: center;
+}
+
+.rowdata{
+    width: 100px;
+}
+
+.rectangle{
+    height: 25px;
+    width: 94px;
+    padding: 5%;
+    background-color: #555;
+    margin:5px;  
+}
+
+.triangle{
+    background-color: #555;
+    position: relative;
+    margin: 5px;
+    padding: 18px;
+}
+
+.triangle2{
+    background-color: #555;
+    position: relative;
+    margin: 5px;
+    margin-right: -5%;
+    padding: 17px;
+}
+
+.triangle2:after{
+    content: "";
+    position: absolute;
+    left: -15px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 15px solid #555;
+    border-top: 19px solid transparent;
+    border-bottom: 15px solid transparent;  
+}
+
+  
+.triangle:before {
+  content: "";
+  position: absolute;
+  right: -15px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid #555;
+  border-top: 19px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+  
+.column a{
+    font-size: 40px;
+    background-color: #555;
+    transition: 0.3s all;
+}
+
+.column a:hover{
+    background-color:#555;
+}
+
+.btncls{
+    text-align: center;
+    padding:10px 50px 10px 50px;
+    color: #fff;
+    background-color: #006400;
+    border: none;
+    margin: 2%;
+}
+
+img{
+    margin: 2%;
+}
